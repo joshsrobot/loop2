@@ -19,7 +19,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="57">
-                <field name="NUM">5</field>
+                <field name="NUM">70</field>
               </block>
             </value>
           </block>
@@ -39,7 +39,7 @@
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="64" inline="true">
-            <field name="OP">EQ</field>
+            <field name="OP">LT</field>
             <value name="A">
               <block type="sensor_object" id="8">
                 <field name="OBJECT">RIGHTFRONT</field>
@@ -47,7 +47,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="71">
-                <field name="NUM">0</field>
+                <field name="NUM">70</field>
               </block>
             </value>
           </block>
