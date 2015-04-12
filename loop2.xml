@@ -65,7 +65,7 @@
       <block type="movement_stop" id="301">
         <next>
           <block type="multimedia_playwav" id="384">
-            <field name="WAV">_startw</field>
+            <field name="WAV">_start_w</field>
           </block>
         </next>
       </block>
