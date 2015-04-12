@@ -62,7 +62,13 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="301"></block>
+      <block type="movement_stop" id="301">
+        <next>
+          <block type="multimedia_playwav" id="384">
+            <field name="WAV">_startw</field>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
