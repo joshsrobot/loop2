@@ -1,12 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="-440" y="-537">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="2">
-        <field name="OBJECT">UP</field>
-      </block>
-    </value>
-  </block>
   <block type="oled_cleardisplay" id="155" x="-569" y="-336">
     <next>
       <block type="oled_setcursor" id="295" inline="true">
@@ -22,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="304">
-            <field name="TEXT">im on the moon</field>
+            <field name="TEXT">im on the mars</field>
             <next>
               <block type="controls_if" id="3" inline="false">
                 <mutation elseif="1" else="1"></mutation>
