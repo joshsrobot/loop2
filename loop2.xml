@@ -6,7 +6,7 @@
         <field name="OBJECT">UP</field>
       </block>
     </value>
-    <statement name="DO">
+    <next>
       <block type="oled_cleardisplay" id="155">
         <next>
           <block type="oled_setcursor" id="295" inline="true">
@@ -195,6 +195,6 @@
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
