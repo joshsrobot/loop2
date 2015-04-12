@@ -61,5 +61,8 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="movement_stop" id="301"></block>
+    </next>
   </block>
 </xml>
