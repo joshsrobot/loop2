@@ -3,9 +3,7 @@
     <next>
       <block type="oled_setcursor" id="295" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="335">
-            <field name="NUM">10</field>
-          </block>
+          <block type="sensor_battery" id="378"></block>
         </value>
         <value name="STARTY">
           <block type="math_number" id="336">
