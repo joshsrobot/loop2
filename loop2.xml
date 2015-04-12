@@ -1,24 +1,42 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="404" inline="false" x="297" y="-31">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="455">
-        <field name="OBJECT">ENTER</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="multimedia_playwav" id="462">
-        <field name="WAV">_sndTest.w</field>
+  <block type="oled_cleardisplay" id="18" x="-638" y="-468">
+    <next>
+      <block type="oled_setcursor" id="77" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="84">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="85">
+            <field name="NUM">10</field>
+          </block>
+        </value>
         <next>
-          <block type="robot_delay" id="473" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="480">
-                <field name="NUM">1000</field>
+          <block type="oled_drawtext" id="110">
+            <field name="TEXT">hi my name is josh</field>
+            <next>
+              <block type="oled_setcursor" id="111" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="112">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="113">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="114">
+                    <field name="TEXT">how are you doing</field>
+                  </block>
+                </next>
               </block>
-            </value>
+            </next>
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
